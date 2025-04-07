@@ -6,24 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Ariyaram Akhil Sriram</div>
+      <div class="logo">Akhil Sriram Ariyaram</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#candc">Courses and Certifications</a></li>
+          <li><a href="#candc">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
 
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Ariyaram Akhil Sriram</div>
+      <div class="logo">Akhil Sriram Ariyaram</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -32,7 +33,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#candc" onclick="toggleMenu()">Courses and Certifications</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -41,16 +42,16 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/pff.jpg" alt="Akhil profile picture" />
+        <img src="./assets/profile pic.jpg" alt="Akhil profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">ARIYARAM AKHIL SRIRAM</h1>
-        <p class="section__text__p2">Final Year of Bachelors</p>
+        <h1 class="title">AKHIL SRIRAM ARIYARAM</h1>
+        <p class="section__text__p2">Software Engineer Intern</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('https://drive.google.com/file/d/1LnFN0DH8SYbPfVziEM5-1VBto6ctNIax/view?usp=drive_link')"
+            onclick="window.open('https://drive.google.com/file/d/1g2rJq8rDGd4Z5Bby2WVeZrUFhDw3hBmL/view?usp=drive_link')"
           >
             Download CV
           </button>
@@ -96,11 +97,11 @@
             <div class="details-container">
               <img
                 src="./assets/experience.png"
-                alt="Experience icon"
+                alt="skills icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>3+ years <br />Creating Various types of Projects</p>
+              <p>1 month <br />Software Engineer Intern</p>
             </div>
             <div class="details-container">
               <img
@@ -112,155 +113,125 @@
               <p>B.Tech Computer Science and Engineering(2021-2025)</p>
             </div>
           </div>
-          <div class="text-container">
+          <div class="details-container">
             <p>
-              Proficient in Python, Java, and SQL, with a proven track record of developing dynamic web applications utilizing
-              Django and React.js. Engineered user-centric projects such as a social media platform and sorting visualizer,
-              enhancing user experience and optimizing performance. Possess a strong foundation in data structures,
-              algorithms, and software engineering principles, with a passion for resolving complex problems and delivering
-              innovative solutions. Collaborated with cross-functional teams to produce scalable software, and consistently
-              refined projects through feedback and iteration to ensure continuous improvement.
+              I am a passionate and dedicated software developer with a strong foundation in computer science. With expertise in Python, Java, React.js, Django, and various database management systems, I thrive in building scalable, efficient, and high-performing applications. My journey spans diverse domains, including Machine Learning, AI, Data Structures, and Cloud Computing, where I’ve developed and implemented projects that combine innovation and practicality.
+
+Currently, I am in the final stages of my B.Tech in Computer Science Engineering from VVIT, Guntur, India. Throughout my academic journey, I have worked on real-world projects such as Emotion-Based Music Recommendation Systems, Crop Recommendation Models, and Sorting Visualizers, applying both theoretical knowledge and hands-on experience.
+
+My proficiency extends to AWS, SQL, DevOps, and PowerBI, which complement my understanding of scalable software design. I am constantly learning and evolving, with a particular interest in building intelligent, cloud-native systems that provide value and solve real-world problems.
+
+In addition to my technical skills, I have interned at Quinfosys and actively participated in hackathons, where I further honed my problem-solving abilities and teamwork skills. I am open to both remote work and relocation opportunities, always eager to contribute to cutting-edge projects and grow as a developer.
+
+Let’s connect and collaborate on building the next big thing!
             </p>
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+      
     </section>
+  
+
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-            
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React Js</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
+      <p class="section-intro">My</p>
+      <h1 class="section-title">Experience</h1>
+      <div class="experience-container">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h2 class="role-title">Software Developer Intern</h2>
+            <p class="company-name"><strong>Company:</strong> Quinfosys</p>
+            <p class="experience-duration"><strong>Duration:</strong> June 2023 - August 2023</p>
           </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Backend Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Django</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Advanced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-             
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Data Structures and Algorithms</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
+          <div class="experience-description">
+            <h3>Responsibilities:</h3>
+            <ul class="responsibilities-list">
+              <li>Built a chatbot for exams and result-related information, adapting to daily changes in data for efficiency.</li>
+              <li>Used KD tree (similar to KNN) on a small dataset for question-answer similarity, deploying the model on AWS.</li>
+              <li>Optimized database queries, reducing recommendation generation time by 30 percent for a seamless experience</li>
+              <li>Optimized performance and improved the overall codebase for better maintainability.</li>
+              <li>Assisted in building user-centric UI/UX for web applications, improving user experience.</li>
+            </ul>
+          </div>
+          <div class="skills-acquired">
+            <h3>Skills Acquired:</h3>
+            <ul class="skills-list">
+              <li>Django</li>
+              <li>Machine learning</li>
+              <li>REST API</li>
+              <li>Git Version Control</li>
+              <li>Agile Development</li>
+            </ul>
           </div>
         </div>
+    
+        <!-- Additional Experience Example -->
+        
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+    </section>
+    
+    
+    
+<!-- Skills Section -->
+<section id="skills">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Skills</h1>
+  <div class="skills-container">
+    <div class="skills-category">
+      <h2 class="skills-sub-title">Programming Languages</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h2 class="skills-sub-title">Web Technologies</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h2 class="skills-sub-title">Frameworks & Libraries</h2>
+      <ul class="skills-list">
+        <li>Django</li>
+        <li>Flask</li>
+        <li>Bootstrap</li>
+        <li>jQuery</li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h2 class="skills-sub-title">Tools & Databases</h2>
+      <ul class="skills-list">
+        <li>Git</li>
+        <li>AWS</li>
+        <li>MS Excel</li>
+        <li>PowerBI</li>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+    <div class="skills-category">
+      <h2 class="skills-sub-title"> Core Competencies</h2>
+      <ul class="skills-list">
+        <li>Data Structures and Algorithms</li>
+        <li>Computer Networks</li>
+        <li>Linux</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
+      <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
@@ -270,7 +241,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Educity</h2>
+            <h2 class="skills-sub-title project-title">Educity</h2>
             <p class="section__text__p1">Skills used: ReactJs, JavaScript, HTML, CSS</p>
             <div class="btn-container">
               <button
@@ -295,7 +266,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Gallery Application</h2>
+            <h2 class="skills-sub-title project-title">Gallery Application</h2>
             <p class="section__text__p1">Skills used: Java, Android Studio</p>
             <div class="btn-container">
               <button
@@ -320,7 +291,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Sorting visualizer</h2>
+            <h2 class="skills-sub-title project-title">Sorting visualizer</h2>
             <p class="section__text__p1">Skills used: ReactJs, JavaScript, HTML, CSS</p>
             <div class="btn-container">
               <button
@@ -341,7 +312,7 @@
           
         </div>
       </div>
-      <div class="experience-details-container">
+      <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
@@ -351,7 +322,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Emotion Based Music Recommendation System</h2>
+            <h2 class="skills-sub-title project-title">Emotion Based Music Recommendation System</h2>
             <p class="section__text__p1">Skills used: Django, Machine Learning, Convolution Neural Networks(CNN)</p>
             <div class="btn-container">
               <button
@@ -362,48 +333,99 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href=`https://github.com/akhilariyaram/emotion_based_music`"
+                onclick="location.href=`https://emotion-based-music-ulk8.onrender.com/`"
               >
                 Live Demo
               </button>
             </div>
           </div>
           
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">LetterBoxd-Analysis</h2>
+            <p class="section__text__p1">Skills used: Flask, HTML, CSS, Pandas, Data Analysis</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/akhilariyaram/letterboxd-analysis'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://akhilsriram.pythonanywhere.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="skills-sub-title project-title">Digital Knowledge Hub</h2>
+            <p class="section__text__p1">Skills used: ReactJs, Flask, HTML, CSS, Weather Api, Machine Learning, FireBase</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/akhilariyaram/Digital-Knowledge-Hub.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/akhilariyaram/Digital-Knowledge-Hub.git'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+
+
+
         </div>
         </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#candc'"
-      />
       
     </section>
     <section id="candc">
       <p class="section__text__p1">Browse My</p>
       <h1 class="title">Courses and Certifications</h1>
-      <div class="experience-details-container">
+      <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Courses</h2>
+            <h2 class="skills-sub-title">Courses</h2>
             <div class="article-container">
+
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                
+                <div>
+                  <h3>AWS Cloud Technical Essentials</h3>
+                  <a href="https://coursera.org/share/a2f56cdefcf56ee07253e740116577b5">certificate-></a>
+                </div>
+              </article>
+
+              <article>
+                
                 <div>
                   <h3>Django</h3>
                   <a href="https://ude.my/UC-1d6acf26-8070-4b1a-b474-35c363803830">certificate-></a>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                
                 <div>
                   <h3>Python</h3>
                   <a href="https://drive.google.com/file/d/1h0DMazf5pHbHq0zuso4W-PBSwhovlvyH/view?usp=drive_link">certificate-></a>
@@ -411,11 +433,7 @@
               </article>
             
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                
                 <div>
                   <h3>Salesforce</h3>
                   <a href="https://drive.google.com/file/d/1DYCw3emgyTaiVjBBLA3GBaVCF4fq3yTl/view?usp=drive_link">certificate-></a>
@@ -423,11 +441,7 @@
               </article>
               
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+               
                 <div>
                   <h3>Android Development</h3>
                   <a href="https://drive.google.com/file/d/1zyDdDYTK99ADZE-72YDIRgw2pjlsi9cC/view?usp=sharing">certificate-></a>
@@ -436,47 +450,31 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Certifications</h2>
+            <h2 class="skills-sub-title">Certifications</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+               
                 <div>
                   <h3>Java Programming</h3>
                   <a href="https://drive.google.com/file/d/16kDr5bS7AzfIStVGGIKLvEHyeFhCrqja/view?usp=drive_link">certificate-></a>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                
                 <div>
                   <h3>Data Structures and Algorithms</h3>
                   <a href="https://drive.google.com/file/d/1yw-exFeVE7PeUeqP5-9l4npKlTY-Nfzk/view?usp=drive_link">certificate-></a>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                
                 <div>
                   <h3>Python</h3>
                   <a href="https://drive.google.com/file/d/10Z_9hYS0oL9jgFZRuvm8zMbLItJESqIu/view?usp=drive_link">certificate-></a>
                 </div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
+                
                 <div>
                   <h3>Java Full Stcak</h3>
                   <a href="https://drive.google.com/file/d/1gqiWa80HHiu9IomSWblCFiv75tX5qPC2/view?usp=drive_link">certificate-></a>
@@ -487,7 +485,49 @@
         </div>
       </div>
       
+
     </section>
+
+
+    <!-- Achievements Section -->
+<section id="achievements">
+  <p class="section__text__p1">Some of My</p>
+  <h1 class="title">Achievements</h1>
+  <div class="achievements-container">
+    <div class="achievement-item">
+      <h3 class="achievement-title">Ranked top 2 percent in Global Hackathon</h3>
+      <p class="achievement-description"> Ranked in the top 2 percent among 10,000 plus global participants in the HackerRank Hackathon, showcasing
+        strong problem-solving and algorithmic skills (2024).</p>
+    </div>
+    <div class="achievement-item">
+      <h3 class="achievement-title">HacktoberFest</h3>
+      <p class="achievement-description">Earned the Hacktoberfest Open Source Badge by contributing to 5 plus open-source projects, improving real-world
+        collaboration skills (2023)</p>
+    </div>
+  </div>
+</section>
+
+<!-- Leadership Skills Section -->
+<section id="leadership-skills">
+  <p class="section__text__p1">Leadership Experience &</p>
+  <h1 class="title">Leadership Skills</h1>
+  <div class="leadership-skills-container">
+    <div class="leadership-item">
+      <h3 class="leadership-title">Project Lead - Web Development</h3>
+      <p class="leadership-description">Led a team of 4 developers to build a real-time messaging app using React and Firebase, ensuring deadlines were met and client satisfaction was achieved.</p>
+    </div>
+    <div class="leadership-item">
+      <h3 class="leadership-title">Coordinated ACM Hackathon</h3>
+      <p class="leadership-description">Coordinated an ACM Hackathon with 200+ participants from multiple colleges.</p>
+    </div>
+    <div class="leadership-item">
+      <h3 class="leadership-title">Student Club President</h3>
+      <p class="leadership-description">Managed a student club, coordinating events, workshops, and mentoring junior members to help them grow their technical skills.</p>
+    </div>
+  </div>
+</section>
+
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -506,7 +546,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/ariyaram-akhil-sriram-6436032b8/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -515,7 +555,7 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#candc">Courses</a></li>
             <li><a href="#contact">Contact</a></li>
